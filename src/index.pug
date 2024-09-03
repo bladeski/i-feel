@@ -1,0 +1,35 @@
+doctype html
+html(lang="en-GB")
+  head 
+    meta(charset="utf-8")
+    title I Feel...
+    
+    meta(name="description" content="An extension to help keep track of what you're feeling.")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(name="theme-color" content="#fafafa")
+
+    link(rel="stylesheet" href="./css/styles.css")
+  body
+    nav
+      a.home-button(href="#Home") Home 
+      a.history-button(href="#History") History
+    main
+      .app
+        form#Home.card
+          h1 Right now I feel...
+            span.save-buttons
+              button(type="submit" class="save-emotion" disabled tabindex="0") 
+                span.check &#10004;
+                span.current-emotion ?
+              button(type="button" class="save-emotion more" disabled tabindex="0") 
+                span.chevron &#9660;
+              button(type="button" class="save-emotion add-info" disabled tabindex="-1") 
+                span.info add info
+            span.submit-info click or press &#8629; return to save
+          .emotions
+        .details.card
+      #History.history.card
+        ul.history-list
+          li There are currently no emotions logged.
+
+    script(type="module" src="app.ts").

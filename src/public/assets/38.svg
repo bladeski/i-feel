@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 31.08 31.08">
+  <defs>
+    <filter id="luminosity-noclip" x="19.93" y="12.48" width="10.44" height="8.39" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-2" x="19.93" y="-8018.42" width="10.44" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-1" x="19.93" y="-8018.42" width="10.44" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="_38_gradient-1" data-name="åçûìßííûé ãðàäèåíò 39" cx="25.15" cy="377.08" fx="25.15" fy="377.08" r="5.22" gradientTransform="translate(0 -285.45) scale(1 .8)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff5f5a"/>
+      <stop offset=".36" stop-color="#ff5250"/>
+      <stop offset="1" stop-color="#ffbe3b"/>
+    </radialGradient>
+    <filter id="luminosity-noclip-3" x=".71" y="12.48" width="10.44" height="8.39" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-4" x=".71" y="-8018.42" width="10.44" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <radialGradient id="_38_gradient-3" data-name="åçûìßííûé ãðàäèåíò 39" cx="5.93" fx="5.93" xlink:href="#_38_gradient-1"/>
+  </defs>
+  <g id="_x2018_ëîé_x5F_1">
+    <g>
+      <path d="M31.08,15.54c0,8.58-3.65,15.54-15.54,15.54S0,24.12,0,15.54,3.83,0,15.54,0s15.54,6.96,15.54,15.54Z" style="fill: #ffbe3b;"/>
+      <g>
+        <g>
+          <path d="M19.93,16.68c0,2.32,2.34,4.2,5.22,4.2s5.22-1.88,5.22-4.2-2.34-4.2-5.22-4.2-5.22,1.88-5.22,4.2Z" style="fill: url(#_38_gradient-1);"/>
+        </g>
+        <g>
+          <path d="M.71,16.68c0,2.32,2.34,4.2,5.22,4.2s5.22-1.88,5.22-4.2-2.34-4.2-5.22-4.2S.71,14.36.71,16.68Z" style="fill: url(#_38_gradient-3);"/>
+        </g>
+      </g>
+      <g>
+        <path d="M12.35,8.53c0,2.34-1.89,4.23-4.23,4.23s-4.23-1.89-4.23-4.23,1.89-4.23,4.23-4.23,4.23,1.89,4.23,4.23Z" style="fill: #fff;"/>
+        <path d="M10.99,8.53c0,1.09-.88,1.98-1.98,1.98s-1.98-.88-1.98-1.98.88-1.98,1.98-1.98,1.98.88,1.98,1.98Z"/>
+        <path d="M27.19,8.53c0,2.34-1.89,4.23-4.23,4.23s-4.23-1.89-4.23-4.23,1.89-4.23,4.23-4.23,4.23,1.89,4.23,4.23Z" style="fill: #fff;"/>
+        <path d="M23.86,8.53c0,1.09-.88,1.98-1.98,1.98s-1.98-.88-1.98-1.98.88-1.98,1.98-1.98,1.98.88,1.98,1.98Z"/>
+      </g>
+      <path d="M4.6,24.7c-.31,0-.59-.22-.65-.53-.07-.36.16-.71.52-.79,7.19-1.48,14.85-1.56,22.14-.24.36.07.6.41.54.78-.07.36-.41.6-.78.54-7.13-1.29-14.61-1.21-21.64.24-.05,0-.09.01-.14.01Z" style="fill: #693719;"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 31.08 31.08">
+  <defs>
+    <radialGradient id="_29_gradient" data-name="åçûìßííûé ãðàäèåíò 88" cx="15.26" cy="2.68" fx="15.26" fy="2.68" r="25.03" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#009bdd"/>
+      <stop offset="1" stop-color="#ffbe3b"/>
+    </radialGradient>
+  </defs>
+  <g id="_x2018_ëîé_x5F_1">
+    <g>
+      <path d="M31.08,15.54c0,8.58-3.65,15.54-15.54,15.54S0,24.12,0,15.54,3.83,0,15.54,0s15.54,6.96,15.54,15.54Z" style="fill: url(#_29_gradient);"/>
+      <g>
+        <circle cx="9.08" cy="10.51" r="6.95" style="fill: #fff;"/>
+        <circle cx="11.53" cy="10.51" r="2.59"/>
+        <circle cx="22" cy="10.51" r="6.95" style="fill: #fff;"/>
+        <circle cx="19.25" cy="10.51" r="2.59"/>
+      </g>
+      <g>
+        <path d="M21.71,27.65c-1.16,2.18-3.41-.66-6.66-.65-3.26-.09-5.25,2.47-6.6.75-1.35-1.72,1.21-6.99,6.66-6.99s7.76,4.71,6.6,6.89Z" style="fill: #693719;"/>
+        <path d="M10.38,22.41c1.11.66,2.59.65,4.67.65,2.24,0,3.84.22,4.92-.63-1.15-.98-2.78-1.67-4.87-1.67-1.97,0-3.56.69-4.73,1.65Z" style="fill: #fff;"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+{
+  "env": {
+    "browser": true
+  },
+  "root": true,
+  // "files": ["*.ts", "*.tsx"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+  ],
+  "plugins": ["sort-class-members", "@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "extraFileExtensions": [".scss"]
+  },
+  "rules": {
+    "sort-class-members/sort-class-members": [
+      2,
+      {
+        "order": [
+          "[static-properties]",
+          "[static-methods]",
+          "[properties]",
+          "[protected-properties]",
+          "[private-properties]",
+          "[getters]",
+          "[setters]",
+          "constructor",
+          "[methods]",
+          "[protected-methods]",
+          "[private-methods]",
+          "[everything-else]"
+        ],
+        "groups": {
+          "static-properties": [{"type": "property", "static": true, "sort": "alphabetical"}],
+          "static-methods": [{"type": "method", "static": true, "sort": "alphabetical"}],
+          "private-properties": [{"type": "property", "static": false, "accessibility": "private", "sort": "alphabetical"}],
+          "protected-properties": [{"type": "property", "static": false, "accessibility": "protected", "sort": "alphabetical"}],
+          "properties": [{"type": "property", "static": false, "accessibility": "public", "sort": "alphabetical"}],
+          "getters": [{"type": "method", "kind": "get", "static": false, "private": false, "sort": "alphabetical"}],
+          "private-methods": [{"type": "method", "static": false, "accessibility": "private", "sort": "alphabetical"}],
+          "protected-methods": [{"type": "method", "static": false, "accessibility": "protected", "sort": "alphabetical"}],
+          "methods": [{"type": "method", "static": false, "accessibility": "public", "sort": "alphabetical"}]
+        },
+        "accessorPairPositioning": "getThenSet",
+        "locale": "en-GB"
+      }
+    ],
+    "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }]
+  }
+}
